@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>emtyroad</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min"></script>
+  </head>
+  <body>
+    <!-- <sky> -->
+    <a-scene background="color:blue">
+      <a-sky></a-sky>
+
+      <a-entity position="0 0 -11">
+        <a-camera></a-camera>
+      </a-entity>
+      
+        <!-- <sun></sun> -->
+      <a-entity>
+        <a-shere position="0 0 0" radius="2" color="orange"></a-shere>
+      </a-entity>
+      
+
+      <!-- mercry -->
+      <a-entity
+        position="0 0 0"
+        rotation="0 0 0"
+        animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:20000"
+      >
+        <a-shere position="1 0 -5" radius="0.2" color="yellow"></a-shere>
+      </a-entity>
+
+      <!-- venus -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:25000">
+      <a-shere position="1 0 -5" radius="0.3" color="red"></a-shere>
+
+      </a-entity>
+
+      <!-- earth -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:30000">
+      <a-shere position="5 0 -5" radius="0.4" color="blue"></a-shere>
+
+      <!-- mars -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:35000">
+      <a-shere position="5 0 -5" radius="0.2" color="brown"></a-shere>
+
+      <!-- jupiter -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:40000">
+      <a-shere position="10 0 -5" radius="0.2" color="KHAKI"></a-shere>
+
+      <!-- saturn -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:45000">
+      <a-shere position="15 0 -5" radius="0.2" color="tortilla"></a-shere>
+
+      <!-- uranus -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:50000">
+      <a-shere position="15 0 -5" radius="0.2" color="lightblue"></a-shere>
+
+      <!-- neptune -->
+      <a-entity position="0 0 0"
+      rotation="0 0 0"
+      animation="propety:rotation;to:0 360 0;easing:linear;loop;true;dur:55000">
+      <a-shere position="20 0 -5" radius="0.2" color="teal"></a-shere>
+
+      <a-entity id="womaterial"></a-entity>
+    </a-scene>
+  </body>
+</html>
